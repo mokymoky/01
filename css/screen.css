@@ -1,4 +1,38 @@
 html {
+<<<<<<< HEAD
   color: #eee;
   background: #111;
+=======
+  html {
+  font-size: 22px;
+  line-height: 27px;
+  padding-bottom: 14px;
+}
+h1,
+h2,
+h3,
+p {
+  padding-bottom: 14px;
+}
+
+h1 {
+  font-size: 39.744px;
+  line-height: 42px;
+}
+
+h2 {
+  font-size: 33.12px;
+  line-height: bold;
+}
+
+a {
+  text-decoration: none;
+}
+.g body { position: relative; }
+
+.g body::after {
+  background: url('data:image/svg+xml;utf8,<svg height="14" width')
+}
+
+>>>>>>> origin/css
 }
