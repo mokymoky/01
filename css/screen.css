@@ -7,13 +7,16 @@ video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,a
 /* Begin site styles below */
 
 /* Set html parent properties */
+
 html {
   color: #eee;
   background: #111;
   font-size: 22px;
   line-height: 27px;
   padding-bottom: 14px;
+}
 
+/* Heading Properties */
 h1,
 h2,
 h3,
@@ -37,7 +40,5 @@ a {
 .g body { position: relative; }
 
 .g body::after {
-  background: url('data:image/svg+xml;utf8,<svg height="14" width')
-}
-
+  background: url('data:image/svg+xml;utf8,<svg height="14" width');
 }
