@@ -9,30 +9,43 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 
 html {
-  font-family: Garamond, serif;
   color: #eee;
   background: #111;
+  font-family: Garamond, serif;
   font-size: 1.125em; /* 16 / 18 = 1.125 */
   line-height: 1.5em; /* 23.994 / 16 = 1.5 */
+  text-align: left;
   padding: 1.5em; /* 23.994 / 16 = 1.5 */
 }
 
 /* Heading Properties */
-h1,
-h2,
-h3,
-p {
-  padding-bottom: 14px;
-}
-
 h1 {
-  font-size: 39.744px;
-  line-height: 42px;
+  font-size: 2.665em; /* 42.635 / 16 = 2.665 */
+  padding-bottom: 0.844em; /* 13.503 / 16 = 0.844 */
+  font-weight: bold;
 }
 
 h2 {
-  font-size: 33.12px;
-  line-height: bold;
+  font-size: 1.999em; /* 31.984 / 16 = 1.999 */
+  padding-bottom: 0.844em; /* 13.503 / 16 = 0.844 */
+  padding-top: 0.844em; /* 13.503 / 16 = 0.844 */
+  font-weight: bold;
+  background-color: #1282A2;
+  padding-left: 0.633em; /* 10.13 / 16 = 0.633 */
+}
+
+h3 {
+  font-size: 1.5em; /* 23.994 / 16 = 1.5 */
+  padding-bottom: 0.844em; /* 13.503 / 16 = 0.844 */
+  padding-top: 0.844em; /* 13.503 / 16 = 0.844 */
+  font-weight: bold;
+}
+
+li,
+ol,
+ul {
+  padding: 0.267em; /* 4.277 / 16 = 0.267 */
+
 }
 
 a {
