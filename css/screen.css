@@ -9,6 +9,7 @@ video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,a
 /* Set html parent properties */
 
 html {
+  font-family: "Garamond", Garamond, serif;
   color: #eee;
   background: #111;
   font-size: 22px;
