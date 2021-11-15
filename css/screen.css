@@ -11,7 +11,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   color: #111;
   background: #ADD8E6;
-  font-family: "Georgia", Times, Times New Roman, serif;
+  font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 1.125em; /* 16 / 18 = 1.125 */
   line-height: 1.5em; /* 23.994 / 16 = 1.5 */
   text-align: left;
@@ -21,7 +21,7 @@ html {
 /* Heading Properties */
 h1 {
   font-size: 2.6em;
-  line-height: 2em;
+  line-height: 1em;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
   font-weight: bold;
@@ -29,8 +29,9 @@ h1 {
 
 h2 {
   font-size: 2em;
-  padding-bottom: 1em;
+  line-height: 1em;
   padding-top: 1em;
+  padding-bottom: 1em;
   font-weight: bold;
   padding-left: 0.633em;
 }
@@ -50,7 +51,9 @@ ul {
 }
 
 a {
-  text-decoration: none;
+  color: #111;
+  text-decoration: underline;
+  text-decoration-style: solid;
 }
 .g body { position: relative; }
 
@@ -70,6 +73,13 @@ footer {
   background-color: #1282A2;
   font-size: 0.633em;
   text-align: left;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  display: block;
 }
 
 @media screen and (min-width: 53.125em) {
