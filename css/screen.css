@@ -9,42 +9,43 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 
 html {
-  color: #eee;
-  background: #111;
-  font-family: Garamond, serif;
+  color: #111;
+  background: #ADD8E6;
+  font-family: "Georgia", Times, Times New Roman, serif;
   font-size: 1.125em; /* 16 / 18 = 1.125 */
   line-height: 1.5em; /* 23.994 / 16 = 1.5 */
   text-align: left;
-  padding: 1.5em; /* 23.994 / 16 = 1.5 */
+  padding: 1.6em; /* 23.994 / 16 = 1.5 */
 }
 
 /* Heading Properties */
 h1 {
-  font-size: 2.665em; /* 42.635 / 16 = 2.665 */
-  padding-bottom: 0.844em; /* 13.503 / 16 = 0.844 */
+  font-size: 2.6em;
+  line-height: 2em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
   font-weight: bold;
 }
 
 h2 {
-  font-size: 1.999em; /* 31.984 / 16 = 1.999 */
-  padding-bottom: 0.844em; /* 13.503 / 16 = 0.844 */
-  padding-top: 0.844em; /* 13.503 / 16 = 0.844 */
+  font-size: 2em;
+  padding-bottom: 1em;
+  padding-top: 1em;
   font-weight: bold;
-  background-color: #1282A2;
-  padding-left: 0.633em; /* 10.13 / 16 = 0.633 */
+  padding-left: 0.633em;
 }
 
 h3 {
-  font-size: 1.5em; /* 23.994 / 16 = 1.5 */
-  padding-bottom: 0.844em; /* 13.503 / 16 = 0.844 */
-  padding-top: 0.844em; /* 13.503 / 16 = 0.844 */
+  font-size: 1.5em;
+  padding-bottom: 1em;
+  padding-top: 1em;
   font-weight: bold;
 }
 
 li,
 ol,
 ul {
-  padding: 0.267em; /* 4.277 / 16 = 0.267 */
+  padding: 0.267em;
 
 }
 
@@ -55,4 +56,26 @@ a {
 
 .g body::after {
   background: url('data:image/svg+xml;utf8,<svg height="14" width');
+}
+
+#navigation ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+footer {
+  padding-bottom: 0.844em;
+  padding-top: 0.844em;
+  background-color: #1282A2;
+  font-size: 0.633em;
+  text-align: left;
+}
+
+@media screen and (min-width: 53.125em) {
+  img {
+    max-width: 50%;
+    margin: 0 auto;
+    max-height: 50%;
+  }
 }
