@@ -15,7 +15,7 @@ html {
   font-size: 1.125em; /* 16 / 18 = 1.125 */
   line-height: 1.5em; /* 23.994 / 16 = 1.5 */
   text-align: left;
-  padding: 1.6em; /* 23.994 / 16 = 1.5 */
+  padding: 1.6em; 
 }
 
 /* Heading Properties */
@@ -64,7 +64,7 @@ a {
 #navigation ul {
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 footer {
