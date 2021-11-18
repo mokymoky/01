@@ -12,41 +12,41 @@ html {
   color: #111;
   background: #ADD8E6;
   font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 1.125em; /* 16 / 18 = 1.125 */
+  font-size: 1.125em; /* 18 / 16 = 1.125 */
   line-height: 1.5em; /* 23.994 / 16 = 1.5 */
   text-align: left;
-  padding: 1.6em;
+  padding: 1.5em; /* 24 / 16 = 1.5 */
 }
 
 /* Heading Properties */
 h1 {
-  font-size: 2.6em;
-  line-height: 1em;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+  font-size: 2.6em; /* 41.6 / 16 = 2.6 */
+  line-height: 1em; /* */
+  padding-top: 1.5em; /* 24 / 16 = 1.5*/
+  padding-bottom: 1.5em; /* 24 / 16 = 1.5 */
   font-weight: bold;
 }
 
 h2 {
-  font-size: 2em;
-  line-height: 1em;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  font-size: 2em; /* 32 / 16 = 2 */
+  line-height: 1em; /* */
+  padding-top: 1em; /* */
+  padding-bottom: 1em; /* */
   font-weight: bold;
-  padding-left: 0.633em;
+  padding-left: 0.666em; /* 10.667 / 16 = .666*/
 }
 
 h3 {
-  font-size: 1.5em;
-  padding-bottom: 1em;
-  padding-top: 1em;
+  font-size: 1.5em; /* 24 / 16 = 1.5*/
+  padding-bottom: 1em; /* */
+  padding-top: 1em; /* */
   font-weight: bold;
 }
 
 li,
 ol,
 ul {
-  padding: 0.267em;
+  padding: 0.267em; /* 4.277 / 16 = 0.267 */
 
 }
 
@@ -68,11 +68,11 @@ a {
 }
 
 footer {
-  padding-bottom: 0.844em;
-  padding-top: 0.844em;
+  padding-bottom: 0.844em; /* 13.503 / 16 = 0.844 */
+  padding-top: 0.844em; /* 13.503 / 16 = 0.844 */
   background-color: #1282A2;
-  font-size: 0.633em;
-  text-align: left;
+  font-size: 0.633em; /* 10.13 / 16 = 0.633 */
+  text-align: center;
 }
 
 img {
