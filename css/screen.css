@@ -9,8 +9,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 
 html {
-  color: #111;
-  background: #ADD8E6;
+  color: #FFFFFF;
+  background: #1282A2;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 1.125em; /* 18 / 16 = 1.125 */
   line-height: 1.5em; /* 23.994 / 16 = 1.5 */
@@ -51,7 +51,7 @@ ul {
 }
 
 a {
-  color: #111;
+  color: #FFFFFF;
   text-decoration: underline;
   text-decoration-style: solid;
 }
