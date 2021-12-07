@@ -25,6 +25,7 @@ h1 {
   padding-top: 1.5em; /* 24 / 16 = 1.5*/
   padding-bottom: 1.5em; /* 24 / 16 = 1.5 */
   font-weight: bold;
+  background: #FC4A1A;
 }
 
 h2 {
@@ -34,6 +35,7 @@ h2 {
   padding-bottom: 1em; /* */
   font-weight: bold;
   padding-left: 0.666em; /* 10.667 / 16 = .666*/
+  background: #FC4A1A;
 }
 
 h3 {
@@ -41,6 +43,7 @@ h3 {
   padding-bottom: 1em; /* */
   padding-top: 1em; /* */
   font-weight: bold;
+  background: #FC4A1A;
 }
 
 li,
@@ -73,10 +76,23 @@ a {
   background: #F7B733;
 }
 
+.weblinks ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.weblinks li {
+  height: 7.5vw;
+  width: 15vw;
+  background: #F7B733;
+}
+
 #navigation ul {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  background: #F7B733;
 }
 
 footer {
