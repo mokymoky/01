@@ -61,6 +61,18 @@ a {
   background: url('data:image/svg+xml;utf8,<svg height="14" width');
 }
 
+.personalMedia ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.personalMedia li {
+  height: 7.5vw;
+  width: 15vw;
+  background: #F7B733;
+}
+
 #navigation ul {
   display: flex;
   flex-flow: row wrap;
