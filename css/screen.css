@@ -63,6 +63,22 @@ a {
   background: url('data:image/svg+xml;utf8,<svg height="14" width');
 }
 
+.gallery ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.gallery img {
+  filter: grayscale(100%);
+  transition: 1s;
+}
+
+.gallery img:hover{
+  filter: grayscale(0);
+  transform: scale(1.025);
+}
+
 .personalMedia ul {
   display: flex;
   flex-flow: row wrap;
@@ -103,16 +119,16 @@ footer {
 }
 
 img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   text-align: center;
+  margin: 5px 10px;
   display: block;
 }
 
 @media screen and (min-width: 53.125em) {
   img {
-    max-width: 50%;
-    margin: 0 auto;
-    max-height: 50%;
+    max-width: 80%;
+    max-height: auto;
   }
 }
